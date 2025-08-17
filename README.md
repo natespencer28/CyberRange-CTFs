@@ -31,7 +31,7 @@
 
 ---
 
-# 🕵️‍♂️ Threat Hunt: *"Deep Access – The Adversary"*
+# 🕵️‍♂️ Threat Hunt: *"Unexpected HR Promotion"*
 
 > *"Not all breaches sound alarms. Some whisper their presence, slipping through telemetry and leaving behind only the faintest trace. Our job: amplify the signal."*
 
