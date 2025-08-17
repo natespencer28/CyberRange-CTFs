@@ -2,7 +2,7 @@
 
 # 📚 Table of Contents
 
-- [🕵️‍♂️ Threat Hunt: "Deep Access – The Adversary"](##-🕵️‍♂️-threat-hunt-deep-access-–-the-adversary)
+- [🕵️‍♂️ Threat Hunt: "Unexpected HR Promotion"](##-🕵️‍♂️-threat-hunt-deep-access-–-the-adversary)
 - [🧰 Platforms and Tools](#-platforms-and-tools)
 - [🔍 Summary of Findings (Flags)](#-summary-of-findings-flags)
   - [🏁 Flag 0: Starting Point – Entry Device Identification](#-flag-0-starting-point--entry-device-identification)
@@ -35,11 +35,13 @@
 
 > *"Not all breaches sound alarms. Some whisper their presence, slipping through telemetry and leaving behind only the faintest trace. Our job: amplify the signal."*
 
-In June 2025, a coordinated threat hunt was conducted across simulated enterprise environments to investigate stealthy adversarial behaviors that mimic advanced persistent threat (APT) tactics. The scenario focused on tracking malicious actions across two virtual machines, designed to replicate real-world intrusion patterns: covert PowerShell usage, registry manipulation, scheduled task abuse, and lateral movement, all executed without triggering traditional alerts.
+A sudden, unexplained promotion has triggered whispers across the executive floor. The recipient? A mid-level employee with no standout track record — at least, not one visible anymore.
 
-The adversary’s playbook was methodical: from initial PowerShell-based execution on a short-lived system to persistence via registry keys and scheduled tasks, culminating in credential dumping, internal reconnaissance, and data staging for exfiltration. Each technique was a breadcrumb and our task was to follow them all.
+Internal HR systems show signs of tampering: audit logs wiped, performance reports edited, and sensitive employee reviews quietly exfiltrated. Behind the scenes, someone has buried the real story beneath layers of obfuscation, PowerShell trickery, and stealthy file manipulation.
 
-This report includes:
+Your mission: act as a covert threat hunter tasked with dissecting the digital remnants of the breach. Trace the insider’s movements. Expose the fake artifacts. Reconstruct the timeline they tried to erase — and uncover the truth behind the promotion that should never have happened.
+
+Nothing in the system adds up... unless you know where to look.
 
 - 📅 Timeline reconstruction of adversarial activity across **`acolyte756`** and **`victor-disa-vm`**
 - 📜 Detailed queries using Microsoft 365 Defender Advanced Hunting (KQL)
